@@ -8,7 +8,7 @@
 
         $result = $conn->query($sql);
 
-        //check for success
+        //check for success, give error if fails
         if($result == TRUE) {
             echo "Record deleted successfully";
         } else {
